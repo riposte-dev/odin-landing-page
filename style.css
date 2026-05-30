@@ -1,3 +1,28 @@
 body {
     font-family: 'Roboto', sans-serif;
+    margin: 0px;/* Allow elements to cover the full screen */
+}
+
+header,
+footer {
+    background: #1F2937;
+    color: #F9FAF8;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+header {
+    padding: 16px;
+
+    h1 {
+        font-size: 24px;
+        font-weight: 900;
+    }
+
+    a {
+        color: #F9FAF8; /* Override hyperlink color */
+        text-decoration: none;
+        margin-left: 16px; /* Space each link in the navigation bar */
+    }
 }
