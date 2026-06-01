@@ -1,5 +1,5 @@
 * {
-/*     outline: 2px solid red; */
+    outline: 2px solid red;
 }
 
 body {
@@ -61,22 +61,19 @@ button.sign-up {
 #section-one {
     background: #1F2937;
 
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    gap: 32px;
-
-    div {
-        flex-basis: 50%;
-    }
-
-    .img-placeholder {
-        background: #858585;
-
+    .container {
         display: flex;
-        justify-content: center;
-        align-items: center;
+        gap: 48px;
+
+        div {
+            flex-basis: 50%;
+        }
+
+        img {
+            height: 100%;
+        }
     }
+
 
     h2 {
         font-size: 48px;
@@ -101,6 +98,7 @@ button.sign-up {
         margin-bottom: 32px;
     }
 
+    /* Make space-inbetween! */
     .container {
         display: flex;
         gap: 48px;
