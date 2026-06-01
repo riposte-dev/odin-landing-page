@@ -1,5 +1,5 @@
 * {
-    outline: 2px solid red;
+/*     outline: 2px solid red; */
 }
 
 body {
@@ -98,7 +98,6 @@ button.sign-up {
         margin-bottom: 32px;
     }
 
-    /* Make space-inbetween! */
     .container {
         display: flex;
         gap: 48px;
