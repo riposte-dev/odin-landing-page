@@ -1,5 +1,5 @@
 * {
-    outline: 2px solid red;
+/*     outline: 2px solid red; */
 }
 
 body {
@@ -98,10 +98,27 @@ button.sign-up {
         font-weight: 900;
         text-align: center;
         margin: 0px;
-        margin-bottom: 16px;
+        margin-bottom: 32px;
     }
 
     .container {
         display: flex;
+        gap: 48px;
+    }
+
+    .card {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+
+        p {
+            text-align: center;
+            color:#1F2937;
+        }
+
+        img {
+            border: 8px solid #3882F6;
+            border-radius: 16px;
+        }
     }
 }
